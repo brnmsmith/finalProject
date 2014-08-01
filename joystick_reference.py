@@ -17,15 +17,17 @@ class ModuleInitializationError(Exception):
     def __str__(self):
         return repr(self.value)
 
+
 class MissingJoystickError(Exception):
     def __init__(self, value):
         self.value = value
     def __str__(self):
         return repr(self.value)
 
+
 def getJoystickInfo():
     try:
-        import pygame as pygame
+        import pygame as pygame #FIXME: pygame wont work... make it!
     except ImportError:
         print "Missing pygame module!!  Make sure to install pygame"
 
