@@ -10,6 +10,8 @@
 # ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #                         O P E R A B L E  C O D E
 #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#TODO: need to get pygame working on mac side
+
 import pygame
 
 # Define some colors
@@ -19,6 +21,8 @@ WHITE    = ( 255, 255, 255)
 # This is a simple class that will help us print to the screen
 # It has nothing to do with the joysticks, just outputing the
 # information.
+
+
 class TextPrint:
     def __init__(self):
         self.reset()
