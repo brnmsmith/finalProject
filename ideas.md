@@ -12,5 +12,4 @@ Examples
 - timberman
 - HEXwalker
 - the Claw
-- asdfsa
 
